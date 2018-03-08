@@ -18,8 +18,8 @@ body {
   }
   
   .square {
-    background: #fff;
-    border: 1px solid #999;
+    background:#D7B687;
+    border: 1px solid rgb(131, 125, 125);
     float: left;
     font-size: 24px;
     font-weight: bold;
@@ -30,6 +30,26 @@ body {
     padding: 0;
     text-align: center;
     width: 50px;
+  }
+
+ .circle1 {
+    width: 40px;
+    height: 40px;
+    background: rgb(248, 246, 246);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-left: 4px;
+  }
+
+  .circle2 {
+    width: 40px;
+    height: 40px;
+    background: rgb(48, 46, 46);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-left: 4px;
   }
   
   .square:focus {
